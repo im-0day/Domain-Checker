@@ -34,16 +34,6 @@ Make sure you have Python 3.x installed on your machine. You will also need to i
   pip install -r requirements.txt
   ```
   
-3. **Create the `requirements.txt` file**:
-   Before you install the packages, you need to create a `requirements.txt` file. Add the following content to it:
-  
-  ```text
-  requests
-  python-whois
-  pyOpenSSL
-  beautifulsoup4
-  ```
-  
 
 ## Usage
 
