@@ -63,7 +63,7 @@ def check_ssl_match(main_cert, target_domain):
 
 def check_domain_in_content(main_domain, target_domain):
     try:
-        response = requests.get(f"http://{target_domain}", timeout=5)
+        response = requests.get(f"https://{target_domain}", timeout=5)
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'html.parser')
             return main_domain in soup.text
