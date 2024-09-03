@@ -23,7 +23,7 @@ Make sure you have Python 3.x installed on your machine. You will also need to i
 1. **Clone the repository**:
   
   ```bash
-  git clone https://github.com/YourUsername/domain-checker.git
+  git clone https://github.com/YourUsername/Domain-checker.git
   cd domain-checker
   ```
   
@@ -55,7 +55,7 @@ Make sure you have Python 3.x installed on your machine. You will also need to i
   python3 domain_checker.py
   ```
   
-  By default, the script will check a predefined list of TLDs for related domains to the main domain (`samantel.ir` in this example).
+  By default, the script will check a predefined list of TLDs for related domains to the main domain (`example.com` in this example).
   
 2. **Customize the main domain**:
    You can modify the `main_domain` variable in the script to check related domains for a different main domain:
